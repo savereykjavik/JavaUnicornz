@@ -16,6 +16,7 @@ function getStations(coordinates) {		//Uses coordinates to find nearby stations 
 		url: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=distance',
 		data: {
 			"key": 'AIzaSyDVw-ruTyNahkP3hx7LcNP8XXHNqr0BSYA',
+			"rouz": 'sneeky',
 			"location": coordinates,
 			"types": 'train_station'
 		},
